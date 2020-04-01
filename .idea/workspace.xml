@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87c3df21-ad74-4307-9fe3-4ef0292212a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/PrivateDecorator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/VoidDecorator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/Decorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/Decorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/FinalDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/FinalDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/PrivateDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/PrivateDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/ProtectedDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/ProtectedDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/PublicDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/PublicDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/ReturnClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/ReturnClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/ReturnInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/ReturnInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/StaticDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/StaticDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/VoidDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/VoidDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/Decorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/FinalDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/FinalDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/PrivateDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/PrivateDecorator.java" afterDir="false" />
@@ -16,6 +25,7 @@
       <change beforePath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/StaticDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/StaticDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/VoidDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/VoidDecorator.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +65,18 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ru.gushin.ngtu.ivt.Main" />
@@ -72,18 +94,6 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -98,6 +108,7 @@
       <workItem from="1585500944917" duration="1916000" />
       <workItem from="1585554516545" duration="1246000" />
       <workItem from="1585749388460" duration="7016000" />
+      <workItem from="1585759454263" duration="6768000" />
     </task>
     <task id="LOCAL-00001" summary="туц туц туц">
       <created>1585749477950</created>
@@ -118,6 +129,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="туц туц туц" />

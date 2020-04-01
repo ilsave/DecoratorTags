@@ -10,7 +10,6 @@ public class PublicDecorator extends Decorator {
         String[] words = String.valueOf(component.sendBackLine()).split(" ");
         StringBuilder a = new StringBuilder();
         int b = 1;
-        //  System.out.println(Arrays.toString(words));
         for (String line : words){
             if ("public".equals(line)){
                 break;
@@ -19,17 +18,14 @@ public class PublicDecorator extends Decorator {
         }
 
         int i = 0;
-
         for (String ln : words){
-
             if(b - i == 1){
-                a.append(" <Public  color> ");
+                a.append("<i><strong> <font color='green' face='Compact'>");
             }
             i++;
-
             if ("public".equals(ln)){
                 a.append(ln);
-                a.append(" </ Public color>");
+                a.append("</font></strong></i>");
                 continue;
             }
             a.append(" ");

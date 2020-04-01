@@ -14,44 +14,30 @@ public class PrivateDecorator extends Decorator {
         StringBuilder a = new StringBuilder();
 
         int b = 1;
-     //   System.out.println(Arrays.toString(words));
         for (String line : words){
             if ("private".equals(line)){
                 break;
             }
             b++;
         }
-       // System.out.println("private position is " + b);
 
         int i =0;
 
         for (String ln : words){
-            //  if ("private".equals(ln) || "protected".equals(ln)|| "public".equals(ln)){
             if(b - i == 1){
-                a.append(" <Red  color> ");
+                a.append("<i><strong><font color='orange' face='Compact'>");
             }
             i++;
 
             if ("private".equals(ln)){
                 a.append(ln);
-                a.append(" </ red color>");
+                a.append("</font></strong></i>");
                 continue;
             }
             a.append(" ");
             a.append(ln);
         }
 
-  //      a.append("<Red color> ");
-//        for (String ln : words){
-//
-//            if ("private".equals(ln)){
-//                a.append(ln);
-//                a.append(" </Red color> ");
-//                continue;
-//            }
-//            a.append(" ");
-//            a.append(ln);
-//        }
         return a;
     }
 }

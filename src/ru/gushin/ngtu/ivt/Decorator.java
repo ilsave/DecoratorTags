@@ -5,5 +5,5 @@ abstract class Decorator implements ReturnInterface{
 
     public Decorator(ReturnClass component) {
         this.component = component;
-    }
+    } // Констурктор, задает компонент
 }
