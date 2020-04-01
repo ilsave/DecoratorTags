@@ -17,19 +17,18 @@ public class FinalDecorator extends Decorator {
             }
             b++;
         }
-
         int i = 0;
 
         for (String ln : words){
 
             if(b - i == 1){
-                a.append(" <Final  color> ");
+                a.append("<i><strong> <font color='purple' face='Compact'>");
             }
             i++;
 
             if ("final".equals(ln)){
                 a.append(ln);
-                a.append(" </final color>");
+                a.append("</font> </strong></i>");
                 continue;
             }
             a.append(" ");
