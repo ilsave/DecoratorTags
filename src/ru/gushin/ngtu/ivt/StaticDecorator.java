@@ -8,8 +8,8 @@ public class StaticDecorator extends Decorator {
     }
 
     @Override
-    public StringBuilder sendBackLine(StringBuilder decline) {
-        String[] words = decline.toString().split(" ");
+    public StringBuilder sendBackLine() {
+        String[] words = String.valueOf(component.sendBackLine()).split(" ");
         StringBuilder a = new StringBuilder();
         int b = 1;
       //  System.out.println(Arrays.toString(words));

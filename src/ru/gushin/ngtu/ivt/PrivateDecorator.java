@@ -9,8 +9,8 @@ public class PrivateDecorator extends Decorator {
     }
 
     @Override
-    public StringBuilder sendBackLine(StringBuilder decline) {
-        String[] words = decline.toString().split(" ");
+    public StringBuilder sendBackLine() {
+        String[] words = String.valueOf(component.sendBackLine()).split(" ");
         StringBuilder a = new StringBuilder();
 
         int b = 1;
