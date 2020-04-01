@@ -1,7 +1,7 @@
 package ru.gushin.ngtu.ivt;
 
-public class PublicDecorator extends Decorator {
-    public PublicDecorator(ReturnClass component) {
+public class VoidDecorator extends Decorator {
+    public VoidDecorator(ReturnClass component) {
         super(component);
     }
 
@@ -12,7 +12,7 @@ public class PublicDecorator extends Decorator {
         int b = 1;
         //  System.out.println(Arrays.toString(words));
         for (String line : words){
-            if ("public".equals(line)){
+            if ("void".equals(line)){
                 break;
             }
             b++;
@@ -23,13 +23,13 @@ public class PublicDecorator extends Decorator {
         for (String ln : words){
 
             if(b - i == 1){
-                a.append(" <Public  color> ");
+                a.append(" <Void  color> ");
             }
             i++;
 
-            if ("public".equals(ln)){
+            if ("void".equals(ln)){
                 a.append(ln);
-                a.append(" </ Public color>");
+                a.append(" </ Void color>");
                 continue;
             }
             a.append(" ");
