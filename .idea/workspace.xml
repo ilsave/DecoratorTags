@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87c3df21-ad74-4307-9fe3-4ef0292212a2" name="Default Changelist" comment="" />
+    <list default="true" id="87c3df21-ad74-4307-9fe3-4ef0292212a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/PublicDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/PrivateDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/PrivateDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/StaticDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/StaticDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/PrivateDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/PrivateDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/StaticDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/StaticDecorator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1ZnvWevrM2BS38VWX5SNn1qv2KK" />
   <component name="ProjectViewState">
@@ -25,6 +35,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -34,6 +46,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -77,37 +92,54 @@
       <workItem from="1585487709238" duration="4051000" />
       <workItem from="1585500944917" duration="1916000" />
       <workItem from="1585554516545" duration="1246000" />
+      <workItem from="1585749388460" duration="3515000" />
     </task>
+    <task id="LOCAL-00001" summary="туц туц туц">
+      <created>1585749477950</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585749477950</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="туц туц туц" />
+    <option name="LAST_COMMIT_MESSAGE" value="туц туц туц" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1585494145755">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1585494145755" />
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1585749476911">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1585749476911" />
     <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1585502412573">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585502412573" />
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1585498972593">
+    <state width="1237" height="141" key="GridCell.Tab.0.bottom" timestamp="1585752915571">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585498972593" />
-    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1585498972593">
+    <state width="1237" height="141" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585752915571" />
+    <state width="1237" height="141" key="GridCell.Tab.0.center" timestamp="1585752915571">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585498972593" />
-    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1585498972593">
+    <state width="1237" height="141" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585752915571" />
+    <state width="1237" height="141" key="GridCell.Tab.0.left" timestamp="1585752915570">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585498972593" />
-    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1585498972593">
+    <state width="1237" height="141" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585752915570" />
+    <state width="1237" height="141" key="GridCell.Tab.0.right" timestamp="1585752915571">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585498972593" />
+    <state width="1237" height="141" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585752915571" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1585498972594">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -124,10 +156,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1585498972594" />
+    <state x="121" y="0" key="SettingsEditor" timestamp="1585749739233">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585749739233" />
     <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585554516192">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585554516192" />
+    <state x="450" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585753020209">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="450" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1585753020209" />
     <state x="91" y="0" key="new project wizard" timestamp="1585555974875">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
