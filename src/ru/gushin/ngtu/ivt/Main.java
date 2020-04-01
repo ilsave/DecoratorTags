@@ -9,5 +9,6 @@ public class Main {
 
         ReturnInterface retInt2 = new StaticDecorator(new ReturnClass());
         System.out.println("result = " + retInt2.sendBackLine(new StringBuilder(a)));
+
     }
 }
