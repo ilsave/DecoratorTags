@@ -1,6 +1,7 @@
 <head><title>Hey There!</title></head><body><br>package ru.gushin.ngtu.ivt;</br>
 <br></br>
 <br><i><strong> <font color='green' face='Compact'>public</font></strong></i> class StudentPojo {</br>
+<br>  &nbsp&nbsp&nbsp&nbsp   <i><strong><font color='orange' face='Compact'>private</font></strong></i><i><strong> <font color='purple' face='Compact'>final</font> </strong></i> String nationality="Russian";</br>
 <br> &nbsp&nbsp&nbsp&nbsp   <i><strong><font color='orange' face='Compact'>private</font></strong></i> String name;</br>
 <br> &nbsp&nbsp&nbsp&nbsp   <i><strong><font color='orange' face='Compact'>private</font></strong></i> String otherPersonalInfo;</br>
 <br> &nbsp&nbsp&nbsp&nbsp   <i><strong> <font color='red' face='Compact'>protected</font> </strong></i> String nameOfUni;</br>
@@ -27,6 +28,7 @@
 <br>  &nbsp&nbsp&nbsp&nbsp   <i><strong> <font color='green' face='Compact'>public</font></strong></i><i><strong> <font color='purple' face='Compact'>void</font> </strong></i> setNameOfUni(String nameOfUni) {</br>
 <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp        this.nameOfUni = nameOfUni;</br>
 <br>&nbsp&nbsp&nbsp&nbsp    }</br>
+<br>  &nbsp&nbsp&nbsp&nbsp   <i><strong> <font color='blue' face='Compact'>static</font> </strong></i> <i><strong> <font color='purple' face='Compact'>void</font> </strong></i> printInfo(){ System.out.println("Info"); }</br>
 <br>}</br>
 
  </body>

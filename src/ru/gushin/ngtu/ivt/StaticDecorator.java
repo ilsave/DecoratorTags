@@ -23,7 +23,7 @@ public class StaticDecorator extends Decorator {
 
         for (String ln : words){
             if(b - i == 1){
-                a.append("<i><strong> <font color='green' face='Compact'>");
+                a.append("<i><strong> <font color='blue' face='Compact'>");
             }
                 i++;
             if ("static".equals(ln)){

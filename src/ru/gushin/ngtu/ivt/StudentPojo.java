@@ -1,6 +1,7 @@
 package ru.gushin.ngtu.ivt;
 
 public class StudentPojo {
+    private final String nationality="Russian";
     private String name;
     private String otherPersonalInfo;
     protected String nameOfUni;
@@ -27,4 +28,5 @@ public class StudentPojo {
     public void setNameOfUni(String nameOfUni) {
         this.nameOfUni = nameOfUni;
     }
+    static  void printInfo(){ System.out.println("Info"); }
 }

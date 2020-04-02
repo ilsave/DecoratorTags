@@ -145,6 +145,12 @@ public class Main {
                     was_modefied = true;
 
                 }
+                else if (word.equals("final")){
+                    ReturnInterface retInt1 = new FinalDecorator(new ReturnClass(new StringBuilder(tag_line)));
+                    tag_line = retInt1.sendBackLine().toString();
+                    was_modefied = true;
+
+                }
 
             }
             // Если ключевых слов нет, то мы записываем строку не измененной
