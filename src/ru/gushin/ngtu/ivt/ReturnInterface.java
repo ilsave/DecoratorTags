@@ -1,6 +1,6 @@
 package ru.gushin.ngtu.ivt;
 
 public interface ReturnInterface {
-    // Возвращает строку
+    // Прототип функции, которая возвращает переданную в неё строку
     StringBuilder sendBackLine();
 }

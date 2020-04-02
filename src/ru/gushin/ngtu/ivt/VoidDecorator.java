@@ -16,9 +16,7 @@ public class VoidDecorator extends Decorator {
             }
             b++;
         }
-
         int i = 0;
-
         for (String ln : words){
             if(b - i == 1){
                 a.append("<i><strong> <font color='purple' face='Compact'>");
