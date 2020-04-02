@@ -5,7 +5,7 @@ public class ReturnClass implements ReturnInterface{
 
     public ReturnClass(StringBuilder line) {
         this.line = line;
-    } // Конструктор, задает строку
+    } // Конструктор, инициализирует строку
 
     @Override
     public StringBuilder sendBackLine() {

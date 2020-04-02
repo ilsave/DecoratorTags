@@ -18,9 +18,7 @@ public class StaticDecorator extends Decorator {
             }
             b++;
         }
-
         int i = 0;
-
         for (String ln : words){
             if(b - i == 1){
                 a.append("<i><strong> <font color='green' face='Compact'>");
@@ -34,7 +32,6 @@ public class StaticDecorator extends Decorator {
             a.append(" ");
             a.append(ln);
         }
-
         return a;
     }
 }
