@@ -20,7 +20,7 @@ public class ReturnDecorator extends Decorator {
         int i = 0;
         for (String ln : words){
             if(b - i == 1){
-                a.append("<i><strong> <font color='orange' face='Compact'>");
+                a.append("<i><strong> <font color='navy' face='Compact'>");
             }
             i++;
             if ("return".equals(ln)){

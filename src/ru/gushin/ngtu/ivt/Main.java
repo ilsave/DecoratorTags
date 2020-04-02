@@ -47,7 +47,7 @@ public class Main {
 
             pw.close();
 
-            System.out.println("Работа успешно завершена!\n(Запись была произведена в файл " + result_path);
+            System.out.println("Работа успешно завершена!\nЗапись была произведена в файл " + result_path);
 
 
         }catch(IOException e){
@@ -146,9 +146,9 @@ public class Main {
                     was_modefied = true;
 
                 }
-                else if (word.equals("final")){
+                else if (word.equals("final")) {
                     ReturnInterface retInt1 = new FinalDecorator(new ReturnClass(new StringBuilder(tag_line)));
-
+                }
                 else if (word.equals("return")){
                     ReturnInterface retInt1 = new ReturnDecorator(new ReturnClass(new StringBuilder(tag_line)));
 

@@ -21,7 +21,7 @@ public class PrivateDecorator extends Decorator {
         int i =0;
         for (String ln : words){
             if(b - i == 1){
-                a.append("<i><strong><font color='orange' face='Compact'>");
+                a.append("<i><strong><font color='red' face='Compact'>");
             }
             i++;
             if ("private".equals(ln)){

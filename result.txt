@@ -5,23 +5,23 @@
 <br>&nbsp */</br>
 <br></br>
 <br><i><strong> <font color='green' face='Compact'>public</font></strong></i> class StudentPojo {</br>
-<br>  &nbsp&nbsp&nbsp&nbsp   <i><strong><font color='orange' face='Compact'>private</font></strong></i><i><strong> <font color='purple' face='Compact'>final</font> </strong></i> String nationality="Russian";</br>
-<br> &nbsp&nbsp&nbsp&nbsp   <i><strong><font color='orange' face='Compact'>private</font></strong></i> String name;</br>
-<br> &nbsp&nbsp&nbsp&nbsp   <i><strong><font color='orange' face='Compact'>private</font></strong></i> String otherPersonalInfo;</br>
-<br> &nbsp&nbsp&nbsp&nbsp   <i><strong> <font color='red' face='Compact'>protected</font> </strong></i> String nameOfUni;</br>
+<br> &nbsp&nbsp&nbsp&nbsp   <i><strong><font color='red' face='Compact'>private</font></strong></i> final String nationality="Russian";</br>
+<br> &nbsp&nbsp&nbsp&nbsp   <i><strong><font color='red' face='Compact'>private</font></strong></i> String name;</br>
+<br> &nbsp&nbsp&nbsp&nbsp   <i><strong><font color='red' face='Compact'>private</font></strong></i> String otherPersonalInfo;</br>
+<br> &nbsp&nbsp&nbsp&nbsp   <i><strong> <font color='orange' face='Compact'>protected</font> </strong></i> String nameOfUni;</br>
 <br> &nbsp&nbsp&nbsp&nbsp   <i><strong> <font color='green' face='Compact'>public</font></strong></i> StudentPojo(String name, String otherPersonalInfo, String nameOfUni) {</br>
 <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp        this.name = name;</br>
 <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp        this.otherPersonalInfo = otherPersonalInfo;</br>
 <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp        this.nameOfUni = nameOfUni;</br>
 <br>&nbsp&nbsp&nbsp&nbsp    }</br>
 <br> &nbsp&nbsp&nbsp&nbsp   <i><strong> <font color='green' face='Compact'>public</font></strong></i> String getName() {</br>
-<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       <i><strong> <font color='orange' face='Compact'>return</font></strong></i> name;</br>
+<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       <i><strong> <font color='navy' face='Compact'>return</font></strong></i> name;</br>
 <br>&nbsp&nbsp&nbsp&nbsp    }</br>
 <br> &nbsp&nbsp&nbsp&nbsp   <i><strong> <font color='green' face='Compact'>public</font></strong></i> String getOtherPersonalInfo() {</br>
-<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       <i><strong> <font color='orange' face='Compact'>return</font></strong></i> otherPersonalInfo;</br>
+<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       <i><strong> <font color='navy' face='Compact'>return</font></strong></i> otherPersonalInfo;</br>
 <br>&nbsp&nbsp&nbsp&nbsp    }</br>
 <br> &nbsp&nbsp&nbsp&nbsp   <i><strong> <font color='green' face='Compact'>public</font></strong></i> String getNameOfUni() {</br>
-<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       <i><strong> <font color='orange' face='Compact'>return</font></strong></i> nameOfUni;</br>
+<br> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp       <i><strong> <font color='navy' face='Compact'>return</font></strong></i> nameOfUni;</br>
 <br>&nbsp&nbsp&nbsp&nbsp    }</br>
 <br>  &nbsp&nbsp&nbsp&nbsp   <i><strong> <font color='green' face='Compact'>public</font></strong></i><i><strong> <font color='purple' face='Compact'>void</font> </strong></i> setName(String name) {</br>
 <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp        this.name = name;</br>

@@ -20,7 +20,7 @@ public class ProtectedDecorator extends Decorator {
         for (String ln : words){
 
             if(b - i == 1){
-                a.append("<i><strong> <font color='red' face='Compact'>");
+                a.append("<i><strong> <font color='orange' face='Compact'>");
             }
             i++;
             if ("protected".equals(ln)){
