@@ -1,9 +1,7 @@
 package ru.gushin.ngtu.ivt;
 
-import java.util.Arrays;
-
-public class StaticDecorator extends Decorator {
-    public StaticDecorator(ReturnClass component) {
+public class ReturnDecorator extends Decorator {
+    public ReturnDecorator(ReturnClass component) {
         super(component);
     }
 
@@ -13,20 +11,21 @@ public class StaticDecorator extends Decorator {
         StringBuilder a = new StringBuilder();
         int b = 1;
         for (String line : words){
-            if ("static".equals(line)){
+            if ("return".equals(line)){
                 break;
             }
             b++;
         }
+
         int i = 0;
         for (String ln : words){
             if(b - i == 1){
-                a.append("<i><strong> <font color='blue' face='Compact'>");
+                a.append("<i><strong> <font color='orange' face='Compact'>");
             }
-                i++;
-            if ("static".equals(ln)){
+            i++;
+            if ("return".equals(ln)){
                 a.append(ln);
-                a.append("</font> </strong></i>");
+                a.append("</font></strong></i>");
                 continue;
             }
             a.append(" ");

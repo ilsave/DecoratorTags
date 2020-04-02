@@ -1,5 +1,9 @@
 package ru.gushin.ngtu.ivt;
 
+/*
+This file can be used for testing
+ */
+
 public class StudentPojo {
     private final String nationality="Russian";
     private String name;

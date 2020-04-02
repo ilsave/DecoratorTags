@@ -23,7 +23,6 @@ public class ProtectedDecorator extends Decorator {
                 a.append("<i><strong> <font color='red' face='Compact'>");
             }
             i++;
-
             if ("protected".equals(ln)){
                 a.append(ln);
                 a.append("</font> </strong></i>");

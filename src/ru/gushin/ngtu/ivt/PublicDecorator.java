@@ -31,7 +31,6 @@ public class PublicDecorator extends Decorator {
             a.append(" ");
             a.append(ln);
         }
-
         return a;
     }
 }
