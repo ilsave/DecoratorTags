@@ -3,7 +3,7 @@ package ru.gushin.ngtu.ivt;
 
 public class PrivateDecorator extends Decorator {
 
-    public PrivateDecorator(ReturnClass component) {
+    public PrivateDecorator(ReturnInterface component) {
         super(component);
     }
 

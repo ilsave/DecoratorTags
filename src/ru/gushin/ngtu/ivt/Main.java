@@ -9,6 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        
         String path = get_path(); // Пользователь указывает, какой файл он хочет использовать
 
         // Работа с файлом
@@ -148,10 +149,11 @@ public class Main {
                 }
                 else if (word.equals("final")) {
                     ReturnInterface retInt1 = new FinalDecorator(new ReturnClass(new StringBuilder(tag_line)));
+                    tag_line = retInt1.sendBackLine().toString();
+                    was_modefied = true;
                 }
                 else if (word.equals("return")){
                     ReturnInterface retInt1 = new ReturnDecorator(new ReturnClass(new StringBuilder(tag_line)));
-
                     tag_line = retInt1.sendBackLine().toString();
                     was_modefied = true;
 

@@ -3,7 +3,7 @@ package ru.gushin.ngtu.ivt;
 import java.util.Arrays;
 
 public class StaticDecorator extends Decorator {
-    public StaticDecorator(ReturnClass component) {
+    public StaticDecorator(ReturnInterface component) {
         super(component);
     }
 

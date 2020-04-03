@@ -1,7 +1,7 @@
 package ru.gushin.ngtu.ivt;
 
 public class ReturnDecorator extends Decorator {
-    public ReturnDecorator(ReturnClass component) {
+    public ReturnDecorator(ReturnInterface component) {
         super(component);
     }
 

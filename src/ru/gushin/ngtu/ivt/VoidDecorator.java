@@ -1,7 +1,7 @@
 package ru.gushin.ngtu.ivt;
 
 public class VoidDecorator extends Decorator {
-    public VoidDecorator(ReturnClass component) {
+    public VoidDecorator(ReturnInterface component) {
         super(component);
     }
 

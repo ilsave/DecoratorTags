@@ -3,22 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="87c3df21-ad74-4307-9fe3-4ef0292212a2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/ProtectedDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/ProtectedDecorator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/PublicDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/PublicDecorator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/VoidDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DecoratorTags/ru/gushin/ngtu/ivt/VoidDecorator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/result.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/Decorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/FinalDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/FinalDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/PrivateDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/PrivateDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/ProtectedDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/ProtectedDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/PublicDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/PublicDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/ReturnDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/ReturnDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/StaticDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/StaticDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/StudentPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/StudentPojo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/VoidDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/gushin/ngtu/ivt/VoidDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/try.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/try.html" beforeDir="false" afterPath="$PROJECT_DIR$/try.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/try.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/try.txt" beforeDir="false" afterPath="$PROJECT_DIR$/try.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,6 +101,10 @@
       <workItem from="1585820755162" duration="783000" />
       <workItem from="1585759454263" duration="7369000" />
       <workItem from="1585822871455" duration="3278000" />
+      <workItem from="1585884397076" duration="3003000" />
+      <workItem from="1585902412947" duration="595000" />
+      <workItem from="1585909329410" duration="30000" />
+      <workItem from="1585933566050" duration="2752000" />
     </task>
     <task id="LOCAL-00001" summary="туц туц туц">
       <created>1585749477950</created>
@@ -162,22 +161,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585820789441" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1585832662223">
+    <state width="1237" height="165" key="GridCell.Tab.0.bottom" timestamp="1585936178052">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585832662223" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1585832662223">
+    <state width="1237" height="165" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585936178052" />
+    <state width="1237" height="165" key="GridCell.Tab.0.center" timestamp="1585936178051">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585832662223" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1585832662223">
+    <state width="1237" height="165" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585936178051" />
+    <state width="1237" height="165" key="GridCell.Tab.0.left" timestamp="1585936178050">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585832662223" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1585832662223">
+    <state width="1237" height="165" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585936178050" />
+    <state width="1237" height="165" key="GridCell.Tab.0.right" timestamp="1585936178052">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585832662223" />
+    <state width="1237" height="165" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585936178052" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1585498972594">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -198,10 +197,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1585749739233" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585820782313">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585933569780">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585820782313" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585933569780" />
     <state x="450" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585753020209">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
