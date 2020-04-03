@@ -9,7 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        
+
         String path = get_path(); // Пользователь указывает, какой файл он хочет использовать
 
         // Работа с файлом
@@ -42,8 +42,7 @@ public class Main {
             if (!file.exists())
                 file.createNewFile(); // Если файла нет, то он создается
             PrintWriter pw = new PrintWriter(file);
-            List<String> tagged_list = Tags(list); // В строки вставляются теги
-            PrintInFile(tagged_list, file); // Сначала текст записывается в формате .txt
+            PrintInFile(list, file); // Сначала текст записывается в формате .txt
             String result_path = CopyToHTML(file); // Затем создается копия этого файла, но в формате .html
 
             pw.close();
@@ -76,7 +75,8 @@ public class Main {
             pw.print(line2); // Первая часть разметки пишется в файл
             for (String line1 : list){
                 pw.print("<br>");
-                pw.print(line1); // Каждая строка из списка пишется в файл
+                // Применяем все возможные декораторы для строки и записываем в файл
+                pw.print(new FinalDecorator(new PrivateDecorator(new ProtectedDecorator(new PublicDecorator(new StaticDecorator(new VoidDecorator(new ReturnClass(new StringBuilder(line1)))))))).sendBackLine().toString()); // Каждая строка из списка пишется в файл
                 pw.println("</br>");
             }
             pw.print(line3); // Вторая часть разметки пишется в файл
@@ -107,71 +107,6 @@ public class Main {
         return dest.getAbsolutePath().toString(); // Возвращается абсолютный путь к файлу с итоговым рузельтатом
     }
 
-
-    // Функция размещает HTML теги около ключевых слов
-    static List<String> Tags(List<String> list){
-        List<String> tagged_list = new LinkedList<>(); // Список строк с тегами.
-        for (String line: list){
-            boolean was_modefied = false; // показывает, была ли изменена строка
-            String tag_line = line;
-            String[] words = line.split(" "); // строка разбивается на слова
-            for (String word: words){
-                // Если в строке есть ключевое слово, то мы добавляем к нему теги и записваем новую строку в лист
-                if (word.equals("public")){
-                    ReturnInterface retInt1 = new PublicDecorator(new ReturnClass(new StringBuilder(tag_line)));
-                    tag_line = retInt1.sendBackLine().toString();
-                    was_modefied = true;
-
-                }
-                else if (word.equals("protected")){
-                    ReturnInterface retInt1 = new ProtectedDecorator(new ReturnClass(new StringBuilder(tag_line)));
-                    tag_line = retInt1.sendBackLine().toString();
-                    was_modefied = true;
-
-                }
-                else if (word.equals("private")){
-                    ReturnInterface retInt1 = new PrivateDecorator(new ReturnClass(new StringBuilder(tag_line)));
-                    tag_line = retInt1.sendBackLine().toString();
-                    was_modefied = true;
-
-                }
-                else if (word.equals("static")){
-                    ReturnInterface retInt1 = new StaticDecorator(new ReturnClass(new StringBuilder(tag_line)));
-                    tag_line = retInt1.sendBackLine().toString();
-                    was_modefied = true;
-
-                }
-                else if (word.equals("void")){
-                    ReturnInterface retInt1 = new VoidDecorator(new ReturnClass(new StringBuilder(tag_line)));
-                    tag_line = retInt1.sendBackLine().toString();
-                    was_modefied = true;
-
-                }
-                else if (word.equals("final")) {
-                    ReturnInterface retInt1 = new FinalDecorator(new ReturnClass(new StringBuilder(tag_line)));
-                    tag_line = retInt1.sendBackLine().toString();
-                    was_modefied = true;
-                }
-                else if (word.equals("return")){
-                    ReturnInterface retInt1 = new ReturnDecorator(new ReturnClass(new StringBuilder(tag_line)));
-                    tag_line = retInt1.sendBackLine().toString();
-                    was_modefied = true;
-
-                }
-
-            }
-            // Если ключевых слов нет, то мы записываем строку не измененной
-            if (!was_modefied){
-                tagged_list.add(line);
-            }
-            // А если теги были добавлены, то записываем измененную строку
-            else{
-                tagged_list.add(tag_line);
-            }
-        }
-
-        return tagged_list;
-    }
 
     // Функция возвращает путь к файлу, который пользователь введет
     static String get_path(){
